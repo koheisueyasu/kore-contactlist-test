@@ -26,7 +26,7 @@ def get_contacts():
             "ORIGINAL_START_DATE": "2026/3/8",
             "RECEIPT_DEVICE_STATUS": "NR01",
             "TRACKING_NUMBER": "",
-            "RETURN_DEADLINE": "2026/3/28",
+            "RETURN_DEADLINE": "2026/3/28"
         },
         {
             # === Kore system fields ===
@@ -48,6 +48,6 @@ def get_contacts():
             "ORIGINAL_START_DATE": "2026/3/8",
             "RECEIPT_DEVICE_STATUS": "NR03",
             "TRACKING_NUMBER": "",
-            "RETURN_DEADLINE": "2026/3/28",
-        },
+            "RETURN_DEADLINE": "2026/3/28"
+        }
     ]
