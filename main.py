@@ -7,7 +7,7 @@ app = FastAPI()
 @app.post("/contacts")
 def get_contacts():
     result = {
-        "contact": {
+        "contact": [
             {
                 "phoneNumber": "+819018919939",
                 "firstName": "APIテスト",
@@ -42,6 +42,6 @@ def get_contacts():
                 "TRACKING_NUMBER": "",
                 "RETURN_DEADLINE": "2026/3/28",
             },
-        }
+        ]
     }
     return result
