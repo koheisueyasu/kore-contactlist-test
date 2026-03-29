@@ -9,7 +9,7 @@ def get_contacts():
     return {
         {
             "OFFER_RMA_NUMBER": "RKSU95050000519999",
-            "OFFER_DATE": "2026/3/8",
+            "OFFER_DATE": "20260329",
             "CUSTOMER_IDENTIFICATION": "2023022009999",
             "CUSTOMER_LASTNAME": "末安",
             "CUSTOMER_FIRSTNAME": "APIテスト",
@@ -23,7 +23,7 @@ def get_contacts():
         },
         {
             "OFFER_RMA_NUMBER": "RKSU95050000518888",
-            "OFFER_DATE": "2026/3/8",
+            "OFFER_DATE": "20260308",
             "CUSTOMER_IDENTIFICATION": "2023022008888",
             "CUSTOMER_LASTNAME": "APIテスト",
             "CUSTOMER_FIRSTNAME": "興平",
