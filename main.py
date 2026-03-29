@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.post("/contacts")
 def get_contacts():
-    return [
+    return {
         {
             "OFFER_RMA_NUMBER": "RKSU95050000519999",
             "OFFER_DATE": "2026/3/8",
@@ -35,4 +35,4 @@ def get_contacts():
             "TRACKING_NUMBER": "",
             "RETURN_DEADLINE": "2026/3/28",
         },
-    ]
+    }
