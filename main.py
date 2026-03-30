@@ -5,10 +5,7 @@ app = FastAPI()
 
 @app.post("/contacts")
 def get_contacts():
-    return {
-        "status": "success",
-        "data": {
-            "results": [
+    return [
                 {
                     "OFFER_RMA_NUMBER": "RKSU95050000519999",
                     "OFFER_DATE": "20260329",
@@ -38,5 +35,3 @@ def get_contacts():
                     "RETURN_DEADLINE": "2026/3/28",
                 },
             ]
-        },
-    }
